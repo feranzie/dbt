@@ -1,0 +1,23 @@
+volumes:
+        dbt:
+services:
+  pgdatabase:
+    image: postgres:13
+    environment:
+      - POSTGRES_USER=my_user
+      - POSTGRES_PASSWORD=my_password
+      - POSTGRES_DB=production
+    volumes:
+      - "dbt:/var/lib/postgres/data"
+    ports:
+      - "5432:5432"
+  pgadmin:
+    image: dpage/pgadmin4
+    environment:
+      - PGADMIN_DEFAULT_EMAIL=admin@admin.com
+      - PGADMIN_DEFAULT_PASSWORD=roots
+    ports:
+      - "8080:80"
+
+    
+    
