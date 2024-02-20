@@ -44,3 +44,725 @@ Runtime Error
 [0m05:59:58.091986 [debug] [MainThread]: Command `dbt debug` failed at 05:59:58.091986 after 0.21 seconds
 [0m05:59:58.092986 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020BEA301220>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020BEAC6FD60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020BED08A880>]}
 [0m05:59:58.094019 [debug] [MainThread]: Flushing usage events
+[0m04:57:41.830288 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022756041C10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022758DDAA60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022758DDA5B0>]}
+
+
+============================== 04:57:41.845574 | d66007ed-ba7a-4bba-a476-c13c8d2f9da4 ==============================
+[0m04:57:41.845574 [info ] [MainThread]: Running with dbt=1.7.8
+[0m04:57:41.845574 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'version_check': 'True', 'log_path': 'C:\\Users\\DELL\\Desktop\\dbt\\logs', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\DELL\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'invocation_command': 'dbt build -t prod', 'static_parser': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m04:57:41.850295 [error] [MainThread]: Encountered an error:
+Runtime Error
+  The profile 'pg-dbt-workshop' does not have a target named 'prod'. The valid target names for this profile are:
+   - dev
+   - type
+   - host
+   - user
+   - password
+   - port
+   - dbname
+   - schema
+   - threads
+   - keepalives_idle
+[0m04:57:41.853825 [debug] [MainThread]: Command `dbt build` failed at 04:57:41.853825 after 0.12 seconds
+[0m04:57:41.853825 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022756041C10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022758E22190>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022758E15DF0>]}
+[0m04:57:41.855300 [debug] [MainThread]: Flushing usage events
+[0m04:58:35.033185 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000251FB311760>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000251FE0BC2E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000251FE0B10D0>]}
+
+
+============================== 04:58:35.041345 | 49ef6fe4-9de7-43d4-ac11-c26de23b1038 ==============================
+[0m04:58:35.041345 [info ] [MainThread]: Running with dbt=1.7.8
+[0m04:58:35.041345 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'C:\\Users\\DELL\\Desktop\\dbt\\logs', 'version_check': 'True', 'profiles_dir': 'C:\\Users\\DELL\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'invocation_command': 'dbt build -t prod', 'static_parser': 'True', 'introspect': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m04:58:35.043410 [error] [MainThread]: Encountered an error:
+Runtime Error
+  The profile 'pg-dbt-workshop' does not have a target named 'prod'. The valid target names for this profile are:
+   - dev
+   - type
+   - host
+   - user
+   - password
+   - port
+   - dbname
+   - schema
+   - threads
+   - keepalives_idle
+[0m04:58:35.048926 [debug] [MainThread]: Command `dbt build` failed at 04:58:35.048926 after 0.06 seconds
+[0m04:58:35.049955 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000251FB311760>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000251FE09A250>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000251FE0D60A0>]}
+[0m04:58:35.049955 [debug] [MainThread]: Flushing usage events
+[0m04:59:09.793251 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000142C9761C10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000142CC4EAA60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000142CC4EA5B0>]}
+
+
+============================== 04:59:09.793251 | 9f4775b8-f961-49e7-84b0-7b8967097a32 ==============================
+[0m04:59:09.793251 [info ] [MainThread]: Running with dbt=1.7.8
+[0m04:59:09.793251 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\DELL\\.dbt', 'version_check': 'True', 'debug': 'False', 'log_path': 'C:\\Users\\DELL\\Desktop\\dbt\\logs', 'warn_error': 'None', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'static_parser': 'True', 'log_format': 'default', 'target_path': 'None', 'invocation_command': 'dbt build -t prod', 'send_anonymous_usage_stats': 'True'}
+[0m04:59:11.040667 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '9f4775b8-f961-49e7-84b0-7b8967097a32', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000142CC6BECA0>]}
+[0m04:59:11.135150 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '9f4775b8-f961-49e7-84b0-7b8967097a32', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000142CC47C8E0>]}
+[0m04:59:11.140151 [info ] [MainThread]: Registered adapter: postgres=1.7.8
+[0m04:59:11.140151 [error] [MainThread]: Encountered an error:
+Compilation Error
+  dbt found 1 package(s) specified in packages.yml, but only 0 package(s) installed in dbt_packages. Run "dbt deps" to install package dependencies.
+[0m04:59:11.145153 [debug] [MainThread]: Command `dbt build` failed at 04:59:11.145153 after 1.40 seconds
+[0m04:59:11.145153 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000142C9761C10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000142CC829DC0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000142CC829430>]}
+[0m04:59:11.145153 [debug] [MainThread]: Flushing usage events
+[0m04:59:28.740441 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020A04CF7E80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020A07A8C850>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020A07A8CA30>]}
+
+
+============================== 04:59:28.744778 | d39d44db-27a5-4e4e-bb76-ff6da6d44445 ==============================
+[0m04:59:28.744778 [info ] [MainThread]: Running with dbt=1.7.8
+[0m04:59:28.746440 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'C:\\Users\\DELL\\Desktop\\dbt\\logs', 'profiles_dir': 'C:\\Users\\DELL\\.dbt', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt deps', 'log_format': 'default', 'introspect': 'True', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m04:59:28.922578 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'd39d44db-27a5-4e4e-bb76-ff6da6d44445', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020A07A8C7F0>]}
+[0m04:59:28.933758 [debug] [MainThread]: Set downloads directory='C:\Users\DELL\AppData\Local\Temp\dbt-downloads-4ipuhyhp'
+[0m04:59:28.933758 [debug] [MainThread]: Making package index registry request: GET https://hub.getdbt.com/api/v1/index.json
+[0m04:59:29.642880 [debug] [MainThread]: Response from registry index: GET https://hub.getdbt.com/api/v1/index.json 200
+[0m04:59:29.642880 [debug] [MainThread]: Making package registry request: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils.json
+[0m04:59:30.268542 [debug] [MainThread]: Response from registry: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils.json 200
+[0m04:59:30.278596 [info ] [MainThread]: Installing dbt-labs/dbt_utils
+[0m04:59:31.661163 [info ] [MainThread]: Installed from version 0.8.0
+[0m04:59:31.666162 [info ] [MainThread]: Updated version available: 1.1.1
+[0m04:59:31.666162 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'package', 'label': 'd39d44db-27a5-4e4e-bb76-ff6da6d44445', 'property_': 'install', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020A07ABF910>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020A07B491F0>]}
+[0m04:59:31.666162 [info ] [MainThread]: 
+[0m04:59:31.666162 [info ] [MainThread]: Updates available for packages: ['dbt-labs/dbt_utils']                 
+Update your versions in packages.yml, then run dbt deps
+[0m04:59:31.672219 [debug] [MainThread]: Command `dbt deps` succeeded at 04:59:31.672219 after 3.00 seconds
+[0m04:59:31.673123 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020A04CF7E80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020A07BB1910>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020A07A96820>]}
+[0m04:59:31.673123 [debug] [MainThread]: Flushing usage events
+[0m05:00:00.236647 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028066141220>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028068ECA7C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028068ECAD60>]}
+
+
+============================== 05:00:00.241640 | 63cde1ad-18f7-4ac3-afa9-bafdc1ff8a7f ==============================
+[0m05:00:00.241640 [info ] [MainThread]: Running with dbt=1.7.8
+[0m05:00:00.241640 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'C:\\Users\\DELL\\Desktop\\dbt\\logs', 'profiles_dir': 'C:\\Users\\DELL\\.dbt', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'introspect': 'True', 'invocation_command': 'dbt build -t prod', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m05:00:00.491807 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '63cde1ad-18f7-4ac3-afa9-bafdc1ff8a7f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028068EEC2B0>]}
+[0m05:00:00.589099 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '63cde1ad-18f7-4ac3-afa9-bafdc1ff8a7f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028069043A60>]}
+[0m05:00:00.589099 [info ] [MainThread]: Registered adapter: postgres=1.7.8
+[0m05:00:00.615079 [debug] [MainThread]: checksum: 6f2d923b773059a8bec6a8d38cc67299c7e21066449495d41a5fcce6d17d603b, vars: {}, profile: , target: prod, version: 1.7.8
+[0m05:00:00.615079 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m05:00:00.620033 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '63cde1ad-18f7-4ac3-afa9-bafdc1ff8a7f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028069211130>]}
+[0m05:00:02.897021 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '63cde1ad-18f7-4ac3-afa9-bafdc1ff8a7f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028069478CD0>]}
+[0m05:00:02.919212 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '63cde1ad-18f7-4ac3-afa9-bafdc1ff8a7f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028069418040>]}
+[0m05:00:02.919212 [info ] [MainThread]: Found 5 models, 1 seed, 10 tests, 2 sources, 0 exposures, 0 metrics, 589 macros, 0 groups, 0 semantic models
+[0m05:00:02.924257 [info ] [MainThread]: 
+[0m05:00:02.924257 [debug] [MainThread]: Acquiring new postgres connection 'master'
+[0m05:00:02.924257 [debug] [ThreadPool]: Acquiring new postgres connection 'list_production'
+[0m05:00:02.939351 [debug] [ThreadPool]: Using postgres connection "list_production"
+[0m05:00:02.939351 [debug] [ThreadPool]: On list_production: /* {"app": "dbt", "dbt_version": "1.7.8", "profile_name": "pg-dbt-workshop", "target_name": "prod", "connection_name": "list_production"} */
+
+    select distinct nspname from pg_namespace
+  
+[0m05:00:02.939351 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m05:00:05.200484 [debug] [ThreadPool]: Postgres adapter: Got a retryable error when attempting to open a postgres connection.
+1 attempts remaining. Retrying in 0 seconds.
+Error:
+could not translate host name "pgdatabase" to address: No such host is known. 
+
+[0m05:00:07.460130 [debug] [ThreadPool]: Postgres adapter: Error running SQL: /* {"app": "dbt", "dbt_version": "1.7.8", "profile_name": "pg-dbt-workshop", "target_name": "prod", "connection_name": "list_production"} */
+
+    select distinct nspname from pg_namespace
+  
+[0m05:00:07.460130 [debug] [ThreadPool]: Postgres adapter: Rolling back transaction.
+[0m05:00:07.460130 [debug] [ThreadPool]: Postgres adapter: Error running SQL: macro list_schemas
+[0m05:00:07.460130 [debug] [ThreadPool]: Postgres adapter: Rolling back transaction.
+[0m05:00:07.460130 [debug] [ThreadPool]: On list_production: No close available on handle
+[0m05:00:07.460130 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m05:00:07.460130 [debug] [MainThread]: Connection 'list_production' was properly closed.
+[0m05:00:07.460130 [info ] [MainThread]: 
+[0m05:00:07.465113 [info ] [MainThread]: Finished running  in 0 hours 0 minutes and 4.54 seconds (4.54s).
+[0m05:00:07.465113 [error] [MainThread]: Encountered an error:
+Database Error
+  could not translate host name "pgdatabase" to address: No such host is known. 
+  
+[0m05:00:07.465113 [debug] [MainThread]: Command `dbt build` failed at 05:00:07.465113 after 7.28 seconds
+[0m05:00:07.465113 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028066141220>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028069478C40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000280697FBBE0>]}
+[0m05:00:07.470114 [debug] [MainThread]: Flushing usage events
+[0m05:05:16.270196 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022BB4561220>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022BB72EA7C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022BB72EAD60>]}
+
+
+============================== 05:05:16.278043 | 6645d343-efc2-4be6-9eea-f0a9a2bb2619 ==============================
+[0m05:05:16.278043 [info ] [MainThread]: Running with dbt=1.7.8
+[0m05:05:16.279164 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'C:\\Users\\DELL\\Desktop\\dbt\\logs', 'profiles_dir': 'C:\\Users\\DELL\\.dbt', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'invocation_command': 'dbt build -t prod', 'static_parser': 'True', 'introspect': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m05:05:16.691498 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '6645d343-efc2-4be6-9eea-f0a9a2bb2619', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022BB730C2B0>]}
+[0m05:05:16.812534 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '6645d343-efc2-4be6-9eea-f0a9a2bb2619', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022BB7463A60>]}
+[0m05:05:16.814489 [info ] [MainThread]: Registered adapter: postgres=1.7.8
+[0m05:05:16.840530 [debug] [MainThread]: checksum: 6f2d923b773059a8bec6a8d38cc67299c7e21066449495d41a5fcce6d17d603b, vars: {}, profile: , target: prod, version: 1.7.8
+[0m05:05:17.037489 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m05:05:17.038488 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m05:05:17.050532 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '6645d343-efc2-4be6-9eea-f0a9a2bb2619', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022BB78CCDC0>]}
+[0m05:05:17.083046 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '6645d343-efc2-4be6-9eea-f0a9a2bb2619', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022BB77A9790>]}
+[0m05:05:17.084054 [info ] [MainThread]: Found 5 models, 1 seed, 10 tests, 2 sources, 0 exposures, 0 metrics, 589 macros, 0 groups, 0 semantic models
+[0m05:05:17.086751 [info ] [MainThread]: 
+[0m05:05:17.087862 [debug] [MainThread]: Acquiring new postgres connection 'master'
+[0m05:05:17.090560 [debug] [ThreadPool]: Acquiring new postgres connection 'list_production'
+[0m05:05:17.112041 [debug] [ThreadPool]: Using postgres connection "list_production"
+[0m05:05:17.113123 [debug] [ThreadPool]: On list_production: /* {"app": "dbt", "dbt_version": "1.7.8", "profile_name": "pg-dbt-workshop", "target_name": "prod", "connection_name": "list_production"} */
+
+    select distinct nspname from pg_namespace
+  
+[0m05:05:17.113589 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m05:05:19.387184 [debug] [ThreadPool]: Postgres adapter: Got a retryable error when attempting to open a postgres connection.
+1 attempts remaining. Retrying in 0 seconds.
+Error:
+could not translate host name "pgdatabase" to address: No such host is known. 
+
+[0m05:05:21.644723 [debug] [ThreadPool]: Postgres adapter: Error running SQL: /* {"app": "dbt", "dbt_version": "1.7.8", "profile_name": "pg-dbt-workshop", "target_name": "prod", "connection_name": "list_production"} */
+
+    select distinct nspname from pg_namespace
+  
+[0m05:05:21.645782 [debug] [ThreadPool]: Postgres adapter: Rolling back transaction.
+[0m05:05:21.645782 [debug] [ThreadPool]: Postgres adapter: Error running SQL: macro list_schemas
+[0m05:05:21.646775 [debug] [ThreadPool]: Postgres adapter: Rolling back transaction.
+[0m05:05:21.646775 [debug] [ThreadPool]: On list_production: No close available on handle
+[0m05:05:21.647774 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m05:05:21.648732 [debug] [MainThread]: Connection 'list_production' was properly closed.
+[0m05:05:21.648732 [info ] [MainThread]: 
+[0m05:05:21.649733 [info ] [MainThread]: Finished running  in 0 hours 0 minutes and 4.56 seconds (4.56s).
+[0m05:05:21.650813 [error] [MainThread]: Encountered an error:
+Database Error
+  could not translate host name "pgdatabase" to address: No such host is known. 
+  
+[0m05:05:21.652866 [debug] [MainThread]: Command `dbt build` failed at 05:05:21.652866 after 5.45 seconds
+[0m05:05:21.653865 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022BB4561220>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022BB77A9100>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022BB77A90D0>]}
+[0m05:05:21.653865 [debug] [MainThread]: Flushing usage events
+[0m05:05:50.259073 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000266D5601C10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000266D838AA60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000266D838A5B0>]}
+
+
+============================== 05:05:50.265085 | 02883155-5e1f-4267-a23e-fc4cf2a8702a ==============================
+[0m05:05:50.265085 [info ] [MainThread]: Running with dbt=1.7.8
+[0m05:05:50.267035 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'C:\\Users\\DELL\\Desktop\\dbt\\logs', 'version_check': 'True', 'profiles_dir': 'C:\\Users\\DELL\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'invocation_command': 'dbt build -t prod', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m05:05:50.576078 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '02883155-5e1f-4267-a23e-fc4cf2a8702a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000266D855ECA0>]}
+[0m05:05:50.683161 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '02883155-5e1f-4267-a23e-fc4cf2a8702a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000266D831C8E0>]}
+[0m05:05:50.684139 [info ] [MainThread]: Registered adapter: postgres=1.7.8
+[0m05:05:50.705137 [debug] [MainThread]: checksum: 6f2d923b773059a8bec6a8d38cc67299c7e21066449495d41a5fcce6d17d603b, vars: {}, profile: , target: prod, version: 1.7.8
+[0m05:05:50.720137 [info ] [MainThread]: Unable to do partial parsing because profile has changed
+[0m05:05:50.721139 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '02883155-5e1f-4267-a23e-fc4cf2a8702a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000266D86BB670>]}
+[0m05:05:53.078908 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '02883155-5e1f-4267-a23e-fc4cf2a8702a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000266D88C8070>]}
+[0m05:05:53.101494 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '02883155-5e1f-4267-a23e-fc4cf2a8702a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000266D8BF54C0>]}
+[0m05:05:53.102497 [info ] [MainThread]: Found 5 models, 1 seed, 10 tests, 2 sources, 0 exposures, 0 metrics, 589 macros, 0 groups, 0 semantic models
+[0m05:05:53.105493 [info ] [MainThread]: 
+[0m05:05:53.107493 [debug] [MainThread]: Acquiring new postgres connection 'master'
+[0m05:05:53.110493 [debug] [ThreadPool]: Acquiring new postgres connection 'list_production'
+[0m05:05:53.136812 [debug] [ThreadPool]: Using postgres connection "list_production"
+[0m05:05:53.137860 [debug] [ThreadPool]: On list_production: /* {"app": "dbt", "dbt_version": "1.7.8", "profile_name": "pg-dbt-workshop", "target_name": "prod", "connection_name": "list_production"} */
+
+    select distinct nspname from pg_namespace
+  
+[0m05:05:53.138929 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m05:05:53.168277 [debug] [ThreadPool]: Postgres adapter: Got a retryable error when attempting to open a postgres connection.
+1 attempts remaining. Retrying in 0 seconds.
+Error:
+connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "prod_user"
+
+[0m05:05:53.176714 [debug] [ThreadPool]: Postgres adapter: Error running SQL: /* {"app": "dbt", "dbt_version": "1.7.8", "profile_name": "pg-dbt-workshop", "target_name": "prod", "connection_name": "list_production"} */
+
+    select distinct nspname from pg_namespace
+  
+[0m05:05:53.178717 [debug] [ThreadPool]: Postgres adapter: Rolling back transaction.
+[0m05:05:53.179720 [debug] [ThreadPool]: Postgres adapter: Error running SQL: macro list_schemas
+[0m05:05:53.180721 [debug] [ThreadPool]: Postgres adapter: Rolling back transaction.
+[0m05:05:53.181715 [debug] [ThreadPool]: On list_production: No close available on handle
+[0m05:05:53.184716 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m05:05:53.185715 [debug] [MainThread]: Connection 'list_production' was properly closed.
+[0m05:05:53.185715 [info ] [MainThread]: 
+[0m05:05:53.187715 [info ] [MainThread]: Finished running  in 0 hours 0 minutes and 0.08 seconds (0.08s).
+[0m05:05:53.189719 [error] [MainThread]: Encountered an error:
+Database Error
+  connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "prod_user"
+  
+[0m05:05:53.194714 [debug] [MainThread]: Command `dbt build` failed at 05:05:53.193724 after 3.02 seconds
+[0m05:05:53.196720 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000266D5601C10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000266D8C52460>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000266D87E3E80>]}
+[0m05:05:53.198721 [debug] [MainThread]: Flushing usage events
+[0m05:06:11.264331 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002E9ED9F2220>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002E9F077A7C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002E9F077AD60>]}
+
+
+============================== 05:06:11.268163 | da763c30-91ea-43b4-903f-71d6eca516b0 ==============================
+[0m05:06:11.268163 [info ] [MainThread]: Running with dbt=1.7.8
+[0m05:06:11.269287 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\DELL\\.dbt', 'version_check': 'True', 'debug': 'False', 'log_path': 'C:\\Users\\DELL\\Desktop\\dbt\\logs', 'warn_error': 'None', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'invocation_command': 'dbt build -t dev', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m05:06:11.536131 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'da763c30-91ea-43b4-903f-71d6eca516b0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002E9F079C2B0>]}
+[0m05:06:11.634129 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'da763c30-91ea-43b4-903f-71d6eca516b0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002E9F08F4A60>]}
+[0m05:06:11.635127 [info ] [MainThread]: Registered adapter: postgres=1.7.8
+[0m05:06:11.652061 [debug] [MainThread]: checksum: fb4f85056d2916a595c302cb9d4d107eb54efc67d3777574ffd9842d9d71d4fb, vars: {}, profile: , target: dev, version: 1.7.8
+[0m05:06:11.669063 [info ] [MainThread]: Unable to do partial parsing because config vars, config profile, or config target have changed
+[0m05:06:11.670062 [debug] [MainThread]: previous checksum: fb4f85056d2916a595c302cb9d4d107eb54efc67d3777574ffd9842d9d71d4fb, current checksum: 6f2d923b773059a8bec6a8d38cc67299c7e21066449495d41a5fcce6d17d603b
+[0m05:06:11.671061 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': 'da763c30-91ea-43b4-903f-71d6eca516b0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002E9F0AA1370>]}
+[0m05:06:13.552461 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'da763c30-91ea-43b4-903f-71d6eca516b0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002E9F0BDF130>]}
+[0m05:06:13.568396 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'da763c30-91ea-43b4-903f-71d6eca516b0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002E9F0FE5A60>]}
+[0m05:06:13.569364 [info ] [MainThread]: Found 5 models, 1 seed, 10 tests, 2 sources, 0 exposures, 0 metrics, 589 macros, 0 groups, 0 semantic models
+[0m05:06:13.571062 [info ] [MainThread]: 
+[0m05:06:13.573033 [debug] [MainThread]: Acquiring new postgres connection 'master'
+[0m05:06:13.574033 [debug] [ThreadPool]: Acquiring new postgres connection 'list_production'
+[0m05:06:13.587081 [debug] [ThreadPool]: Using postgres connection "list_production"
+[0m05:06:13.587081 [debug] [ThreadPool]: On list_production: /* {"app": "dbt", "dbt_version": "1.7.8", "profile_name": "pg-dbt-workshop", "target_name": "dev", "connection_name": "list_production"} */
+
+    select distinct nspname from pg_namespace
+  
+[0m05:06:13.588080 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m05:06:13.604098 [debug] [ThreadPool]: SQL status: SELECT 6 in 0.0 seconds
+[0m05:06:13.605794 [debug] [ThreadPool]: On list_production: Close
+[0m05:06:13.608612 [debug] [ThreadPool]: Acquiring new postgres connection 'list_production_dbt_foladavies'
+[0m05:06:13.616770 [debug] [ThreadPool]: Using postgres connection "list_production_dbt_foladavies"
+[0m05:06:13.616770 [debug] [ThreadPool]: On list_production_dbt_foladavies: BEGIN
+[0m05:06:13.617815 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m05:06:13.638463 [debug] [ThreadPool]: SQL status: BEGIN in 0.0 seconds
+[0m05:06:13.638993 [debug] [ThreadPool]: Using postgres connection "list_production_dbt_foladavies"
+[0m05:06:13.639569 [debug] [ThreadPool]: On list_production_dbt_foladavies: /* {"app": "dbt", "dbt_version": "1.7.8", "profile_name": "pg-dbt-workshop", "target_name": "dev", "connection_name": "list_production_dbt_foladavies"} */
+select
+      'production' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'dbt_foladavies'
+    union all
+    select
+      'production' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'dbt_foladavies'
+    union all
+    select
+      'production' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'dbt_foladavies'
+  
+[0m05:06:13.649238 [debug] [ThreadPool]: SQL status: SELECT 0 in 0.0 seconds
+[0m05:06:13.650753 [debug] [ThreadPool]: On list_production_dbt_foladavies: ROLLBACK
+[0m05:06:13.652473 [debug] [ThreadPool]: On list_production_dbt_foladavies: Close
+[0m05:06:13.660458 [debug] [MainThread]: Using postgres connection "master"
+[0m05:06:13.661059 [debug] [MainThread]: On master: BEGIN
+[0m05:06:13.661645 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m05:06:13.679018 [debug] [MainThread]: SQL status: BEGIN in 0.0 seconds
+[0m05:06:13.680074 [debug] [MainThread]: Using postgres connection "master"
+[0m05:06:13.680608 [debug] [MainThread]: On master: /* {"app": "dbt", "dbt_version": "1.7.8", "profile_name": "pg-dbt-workshop", "target_name": "dev", "connection_name": "master"} */
+with relation as (
+        select
+            pg_rewrite.ev_class as class,
+            pg_rewrite.oid as id
+        from pg_rewrite
+    ),
+    class as (
+        select
+            oid as id,
+            relname as name,
+            relnamespace as schema,
+            relkind as kind
+        from pg_class
+    ),
+    dependency as (
+        select distinct
+            pg_depend.objid as id,
+            pg_depend.refobjid as ref
+        from pg_depend
+    ),
+    schema as (
+        select
+            pg_namespace.oid as id,
+            pg_namespace.nspname as name
+        from pg_namespace
+        where nspname != 'information_schema' and nspname not like 'pg\_%'
+    ),
+    referenced as (
+        select
+            relation.id AS id,
+            referenced_class.name ,
+            referenced_class.schema ,
+            referenced_class.kind
+        from relation
+        join class as referenced_class on relation.class=referenced_class.id
+        where referenced_class.kind in ('r', 'v', 'm')
+    ),
+    relationships as (
+        select
+            referenced.name as referenced_name,
+            referenced.schema as referenced_schema_id,
+            dependent_class.name as dependent_name,
+            dependent_class.schema as dependent_schema_id,
+            referenced.kind as kind
+        from referenced
+        join dependency on referenced.id=dependency.id
+        join class as dependent_class on dependency.ref=dependent_class.id
+        where
+            (referenced.name != dependent_class.name or
+             referenced.schema != dependent_class.schema)
+    )
+
+    select
+        referenced_schema.name as referenced_schema,
+        relationships.referenced_name as referenced_name,
+        dependent_schema.name as dependent_schema,
+        relationships.dependent_name as dependent_name
+    from relationships
+    join schema as dependent_schema on relationships.dependent_schema_id=dependent_schema.id
+    join schema as referenced_schema on relationships.referenced_schema_id=referenced_schema.id
+    group by referenced_schema, referenced_name, dependent_schema, dependent_name
+    order by referenced_schema, referenced_name, dependent_schema, dependent_name;
+[0m05:06:13.687498 [debug] [MainThread]: SQL status: SELECT 0 in 0.0 seconds
+[0m05:06:13.688926 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'da763c30-91ea-43b4-903f-71d6eca516b0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002E9F0BDF2E0>]}
+[0m05:06:13.689521 [debug] [MainThread]: On master: ROLLBACK
+[0m05:06:13.690687 [debug] [MainThread]: Using postgres connection "master"
+[0m05:06:13.691668 [debug] [MainThread]: On master: BEGIN
+[0m05:06:13.694283 [debug] [MainThread]: SQL status: BEGIN in 0.0 seconds
+[0m05:06:13.694833 [debug] [MainThread]: On master: COMMIT
+[0m05:06:13.695629 [debug] [MainThread]: Using postgres connection "master"
+[0m05:06:13.695629 [debug] [MainThread]: On master: COMMIT
+[0m05:06:13.697878 [debug] [MainThread]: SQL status: COMMIT in 0.0 seconds
+[0m05:06:13.698016 [debug] [MainThread]: On master: Close
+[0m05:06:13.699225 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m05:06:13.700621 [info ] [MainThread]: 
+[0m05:06:13.711186 [debug] [Thread-1  ]: Began running node model.taxi_rides_ny.stg_green_tripdata
+[0m05:06:13.711795 [debug] [Thread-2  ]: Began running node model.taxi_rides_ny.stg_yellow_tripdata
+[0m05:06:13.712699 [debug] [Thread-3  ]: Began running node seed.taxi_rides_ny.taxi_zone_lookup
+[0m05:06:13.712699 [info ] [Thread-1  ]: 1 of 16 START sql view model dbt_foladavies.stg_green_tripdata ................. [RUN]
+[0m05:06:13.715607 [debug] [Thread-1  ]: Acquiring new postgres connection 'model.taxi_rides_ny.stg_green_tripdata'
+[0m05:06:13.716667 [debug] [Thread-1  ]: Began compiling node model.taxi_rides_ny.stg_green_tripdata
+[0m05:06:13.713606 [info ] [Thread-2  ]: 2 of 16 START sql view model dbt_foladavies.stg_yellow_tripdata ................ [RUN]
+[0m05:06:13.722670 [debug] [Thread-2  ]: Acquiring new postgres connection 'model.taxi_rides_ny.stg_yellow_tripdata'
+[0m05:06:13.723647 [debug] [Thread-2  ]: Began compiling node model.taxi_rides_ny.stg_yellow_tripdata
+[0m05:06:13.729603 [debug] [Thread-2  ]: Writing injected SQL for node "model.taxi_rides_ny.stg_yellow_tripdata"
+[0m05:06:13.738648 [debug] [Thread-1  ]: Writing injected SQL for node "model.taxi_rides_ny.stg_green_tripdata"
+[0m05:06:13.714651 [info ] [Thread-3  ]: 3 of 16 START seed file dbt_foladavies.taxi_zone_lookup ........................ [RUN]
+[0m05:06:13.739603 [debug] [Thread-3  ]: Acquiring new postgres connection 'seed.taxi_rides_ny.taxi_zone_lookup'
+[0m05:06:13.739603 [debug] [Thread-3  ]: Began compiling node seed.taxi_rides_ny.taxi_zone_lookup
+[0m05:06:13.740603 [debug] [Thread-3  ]: Timing info for seed.taxi_rides_ny.taxi_zone_lookup (compile): 05:06:13.740603 => 05:06:13.740603
+[0m05:06:13.741603 [debug] [Thread-3  ]: Began executing node seed.taxi_rides_ny.taxi_zone_lookup
+[0m05:06:13.776797 [debug] [Thread-3  ]: Using postgres connection "seed.taxi_rides_ny.taxi_zone_lookup"
+[0m05:06:13.777788 [debug] [Thread-3  ]: On seed.taxi_rides_ny.taxi_zone_lookup: BEGIN
+[0m05:06:13.777788 [debug] [Thread-3  ]: Opening a new connection, currently in state init
+[0m05:06:13.779843 [debug] [Thread-2  ]: Timing info for model.taxi_rides_ny.stg_yellow_tripdata (compile): 05:06:13.724603 => 05:06:13.778777
+[0m05:06:13.781620 [debug] [Thread-2  ]: Began executing node model.taxi_rides_ny.stg_yellow_tripdata
+[0m05:06:13.787744 [debug] [Thread-1  ]: Timing info for model.taxi_rides_ny.stg_green_tripdata (compile): 05:06:13.716667 => 05:06:13.787744
+[0m05:06:13.788815 [debug] [Thread-1  ]: Began executing node model.taxi_rides_ny.stg_green_tripdata
+[0m05:06:13.805075 [debug] [Thread-3  ]: SQL status: BEGIN in 0.0 seconds
+[0m05:06:13.805641 [debug] [Thread-3  ]: Using postgres connection "seed.taxi_rides_ny.taxi_zone_lookup"
+[0m05:06:13.806207 [debug] [Thread-3  ]: On seed.taxi_rides_ny.taxi_zone_lookup: /* {"app": "dbt", "dbt_version": "1.7.8", "profile_name": "pg-dbt-workshop", "target_name": "dev", "node_id": "seed.taxi_rides_ny.taxi_zone_lookup"} */
+
+    create table "production"."dbt_foladavies"."taxi_zone_lookup" ("LocationID" integer,"Borough" text,"Zone" text,"service_zone" text)
+  
+[0m05:06:13.839076 [debug] [Thread-3  ]: SQL status: CREATE TABLE in 0.0 seconds
+[0m05:06:13.846324 [debug] [Thread-1  ]: Writing runtime sql for node "model.taxi_rides_ny.stg_green_tripdata"
+[0m05:06:13.844318 [debug] [Thread-2  ]: Writing runtime sql for node "model.taxi_rides_ny.stg_yellow_tripdata"
+[0m05:06:13.935963 [debug] [Thread-2  ]: Using postgres connection "model.taxi_rides_ny.stg_yellow_tripdata"
+[0m05:06:13.936967 [debug] [Thread-2  ]: On model.taxi_rides_ny.stg_yellow_tripdata: BEGIN
+[0m05:06:13.942213 [debug] [Thread-2  ]: Opening a new connection, currently in state init
+[0m05:06:13.948659 [debug] [Thread-1  ]: Using postgres connection "model.taxi_rides_ny.stg_green_tripdata"
+[0m05:06:13.960711 [debug] [Thread-2  ]: SQL status: BEGIN in 0.0 seconds
+[0m05:06:13.966440 [debug] [Thread-1  ]: On model.taxi_rides_ny.stg_green_tripdata: BEGIN
+[0m05:06:13.982419 [debug] [Thread-2  ]: Using postgres connection "model.taxi_rides_ny.stg_yellow_tripdata"
+[0m05:06:14.004141 [debug] [Thread-1  ]: Opening a new connection, currently in state init
+[0m05:06:14.020820 [debug] [Thread-2  ]: On model.taxi_rides_ny.stg_yellow_tripdata: /* {"app": "dbt", "dbt_version": "1.7.8", "profile_name": "pg-dbt-workshop", "target_name": "dev", "node_id": "model.taxi_rides_ny.stg_yellow_tripdata"} */
+
+  create view "production"."dbt_foladavies"."stg_yellow_tripdata__dbt_tmp"
+    
+    
+  as (
+    
+
+with tripdata as 
+(
+  select *,
+    row_number() over(partition by vendorid, tpep_pickup_datetime) as rn
+  from "de-zoomcamp-413508"."dezoomcamp"."external_yellow_tripdata"
+  where vendorid is not null 
+)
+select
+    -- identifiers
+    md5(cast(coalesce(cast(vendorid as 
+    varchar
+), '') || '-' || coalesce(cast(tpep_pickup_datetime as 
+    varchar
+), '') as 
+    varchar
+)) as tripid,
+    cast(vendorid as integer) as vendorid,
+    cast(ratecodeid as integer) as ratecodeid,
+    cast(pulocationid as integer) as  pickup_locationid,
+    cast(dolocationid as integer) as dropoff_locationid,
+    
+    -- timestamps
+    cast(tpep_pickup_datetime as timestamp) as pickup_datetime,
+    cast(tpep_dropoff_datetime as timestamp) as dropoff_datetime,
+    
+    -- trip info
+    store_and_fwd_flag,
+    cast(passenger_count as integer) as passenger_count,
+    cast(trip_distance as numeric) as trip_distance,
+    1 as trip_type,
+    
+    -- payment info
+    cast(fare_amount as numeric) as fare_amount,
+    cast(extra as numeric) as extra,
+    cast(mta_tax as numeric) as mta_tax,
+    cast(tip_amount as numeric) as tip_amount,
+    cast(tolls_amount as numeric) as tolls_amount,
+    0 as ehail_fee,
+    cast(improvement_surcharge as numeric) as improvement_surcharge,
+    cast(total_amount as numeric) as total_amount,
+    cast(payment_type as integer) as payment_type,
+    case payment_type
+        when 1 then 'Credit card'
+        when 2 then 'Cash'
+        when 3 then 'No charge'
+        when 4 then 'Dispute'
+        when 5 then 'Unknown'
+        when 6 then 'Voided trip'
+    end as payment_type_description, 
+    cast(congestion_surcharge as numeric) as congestion_surcharge
+
+from tripdata
+where rn = 1
+-- dbt build --m <model.sql> --var 'is_test_run: false'
+
+
+  limit 100
+
+
+  );
+[0m05:06:14.059885 [debug] [Thread-1  ]: SQL status: BEGIN in 0.0 seconds
+[0m05:06:14.060942 [debug] [Thread-2  ]: Postgres adapter: Postgres error: cross-database references are not implemented: "de-zoomcamp-413508.dezoomcamp.external_yellow_tripdata"
+LINE 13:   from "de-zoomcamp-413508"."dezoomcamp"."external_yellow_tr...
+                ^
+
+[0m05:06:14.062001 [debug] [Thread-1  ]: Using postgres connection "model.taxi_rides_ny.stg_green_tripdata"
+[0m05:06:14.077738 [debug] [Thread-2  ]: On model.taxi_rides_ny.stg_yellow_tripdata: ROLLBACK
+[0m05:06:14.078694 [debug] [Thread-1  ]: On model.taxi_rides_ny.stg_green_tripdata: /* {"app": "dbt", "dbt_version": "1.7.8", "profile_name": "pg-dbt-workshop", "target_name": "dev", "node_id": "model.taxi_rides_ny.stg_green_tripdata"} */
+
+  create view "production"."dbt_foladavies"."stg_green_tripdata__dbt_tmp"
+    
+    
+  as (
+    
+
+with tripdata as 
+(
+  select *,
+    row_number() over(partition by vendorid, lpep_pickup_datetime) as rn
+  from "de-zoomcamp-413508"."dezoomcamp"."green_tripdata"
+  where vendorid is not null 
+)
+select
+    -- identifiers
+    md5(cast(coalesce(cast(vendorid as 
+    varchar
+), '') || '-' || coalesce(cast(lpep_pickup_datetime as 
+    varchar
+), '') as 
+    varchar
+)) as tripid,
+    cast(vendorid as integer) as vendorid,
+    cast(ratecodeid as integer) as ratecodeid,
+    cast(pulocationid as integer) as  pickup_locationid,
+    cast(dolocationid as integer) as dropoff_locationid,
+    
+    -- timestamps
+    cast(lpep_pickup_datetime as timestamp) as pickup_datetime,
+    cast(lpep_dropoff_datetime as timestamp) as dropoff_datetime,
+    
+    -- trip info
+    store_and_fwd_flag,
+    cast(passenger_count as integer) as passenger_count,
+    cast(trip_distance as numeric) as trip_distance,
+    cast(trip_type as integer) as trip_type,
+    
+    -- payment info
+    cast(fare_amount as numeric) as fare_amount,
+    cast(extra as numeric) as extra,
+    cast(mta_tax as numeric) as mta_tax,
+    cast(tip_amount as numeric) as tip_amount,
+    cast(tolls_amount as numeric) as tolls_amount,
+    cast(ehail_fee as numeric) as ehail_fee,
+    cast(improvement_surcharge as numeric) as improvement_surcharge,
+    cast(total_amount as numeric) as total_amount,
+    cast(payment_type as integer) as payment_type,
+    case payment_type
+        when 1 then 'Credit card'
+        when 2 then 'Cash'
+        when 3 then 'No charge'
+        when 4 then 'Dispute'
+        when 5 then 'Unknown'
+        when 6 then 'Voided trip'
+    end as payment_type_description, 
+    cast(congestion_surcharge as numeric) as congestion_surcharge
+
+from tripdata
+where rn = 1
+-- dbt build --m <model.sql> --var 'is_test_run: false'
+
+
+  limit 100
+
+
+  );
+[0m05:06:14.100779 [debug] [Thread-1  ]: Postgres adapter: Postgres error: cross-database references are not implemented: "de-zoomcamp-413508.dezoomcamp.green_tripdata"
+LINE 13:   from "de-zoomcamp-413508"."dezoomcamp"."green_tripdata"
+                ^
+
+[0m05:06:14.101847 [debug] [Thread-2  ]: Timing info for model.taxi_rides_ny.stg_yellow_tripdata (execute): 05:06:13.782689 => 05:06:14.101315
+[0m05:06:14.102912 [debug] [Thread-1  ]: On model.taxi_rides_ny.stg_green_tripdata: ROLLBACK
+[0m05:06:14.118622 [debug] [Thread-2  ]: On model.taxi_rides_ny.stg_yellow_tripdata: Close
+[0m05:06:14.124847 [debug] [Thread-3  ]: Using postgres connection "seed.taxi_rides_ny.taxi_zone_lookup"
+[0m05:06:14.125394 [debug] [Thread-1  ]: Timing info for model.taxi_rides_ny.stg_green_tripdata (execute): 05:06:13.788879 => 05:06:14.125394
+[0m05:06:14.126986 [debug] [Thread-3  ]: On seed.taxi_rides_ny.taxi_zone_lookup: 
+          insert into "production"."dbt_foladavies"."taxi_zone_lookup" ("LocationID", "Borough", "Zone", "service_zone") values
+          (%s,%s,%s,%s),(%s,%s,%s,%s),(%s,%s,%s,%s),(%s,%s,%s,%s),(%s,%s,%s,%s),(%s,%s,%s,%s),(%s,%s,%s,%s),(%s,%s,%s,%s),(%s,%s,%s,%s),(%s,%s,%s,%s),(%s,%s,%s,%s),(%s,%s,%s,%s),(%s,%s,%s,%s),(%s,%s,%s,%s),(%s,%s,%s,%s),(%s,%s,%s,%s),(%s,%s,%s,%s),(%s,%s,%s,%s),(%s,%s,%s,%s),(%s,%s,%s,%s),(%s,%s,%s,%s),(%s,%s,%s,%s),(%s,%s,%s,%s),(%s,%s,%s,%s),(%s,%s,%s,%s),(%s,%s,%s,%s),(%s,%s,%s...
+[0m05:06:14.127553 [debug] [Thread-1  ]: On model.taxi_rides_ny.stg_green_tripdata: Close
+[0m05:06:14.134682 [debug] [Thread-3  ]: SQL status: INSERT 0 265 in 0.0 seconds
+[0m05:06:14.141433 [debug] [Thread-3  ]: Writing runtime SQL for node "seed.taxi_rides_ny.taxi_zone_lookup"
+[0m05:06:14.165032 [debug] [Thread-3  ]: On seed.taxi_rides_ny.taxi_zone_lookup: COMMIT
+[0m05:06:14.165032 [debug] [Thread-3  ]: Using postgres connection "seed.taxi_rides_ny.taxi_zone_lookup"
+[0m05:06:14.166033 [debug] [Thread-3  ]: On seed.taxi_rides_ny.taxi_zone_lookup: COMMIT
+[0m05:06:14.170297 [debug] [Thread-3  ]: SQL status: COMMIT in 0.0 seconds
+[0m05:06:14.172015 [debug] [Thread-3  ]: Timing info for seed.taxi_rides_ny.taxi_zone_lookup (execute): 05:06:13.741603 => 05:06:14.171454
+[0m05:06:14.172541 [debug] [Thread-3  ]: On seed.taxi_rides_ny.taxi_zone_lookup: Close
+[0m05:06:14.173672 [debug] [Thread-3  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'da763c30-91ea-43b4-903f-71d6eca516b0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002E9F1301D30>]}
+[0m05:06:14.174738 [info ] [Thread-3  ]: 3 of 16 OK loaded seed file dbt_foladavies.taxi_zone_lookup .................... [[32mINSERT 265[0m in 0.44s]
+[0m05:06:14.176331 [debug] [Thread-3  ]: Finished running node seed.taxi_rides_ny.taxi_zone_lookup
+[0m05:06:14.177393 [debug] [Thread-4  ]: Began running node model.taxi_rides_ny.dim_zones
+[0m05:06:14.177977 [info ] [Thread-4  ]: 4 of 16 START sql table model dbt_foladavies.dim_zones ......................... [RUN]
+[0m05:06:14.179657 [debug] [Thread-4  ]: Acquiring new postgres connection 'model.taxi_rides_ny.dim_zones'
+[0m05:06:14.180189 [debug] [Thread-4  ]: Began compiling node model.taxi_rides_ny.dim_zones
+[0m05:06:14.188238 [debug] [Thread-4  ]: Writing injected SQL for node "model.taxi_rides_ny.dim_zones"
+[0m05:06:14.190240 [debug] [Thread-4  ]: Timing info for model.taxi_rides_ny.dim_zones (compile): 05:06:14.180725 => 05:06:14.189240
+[0m05:06:14.191239 [debug] [Thread-4  ]: Began executing node model.taxi_rides_ny.dim_zones
+[0m05:06:14.230178 [debug] [Thread-4  ]: Writing runtime sql for node "model.taxi_rides_ny.dim_zones"
+[0m05:06:14.233177 [debug] [Thread-4  ]: Using postgres connection "model.taxi_rides_ny.dim_zones"
+[0m05:06:14.234177 [debug] [Thread-4  ]: On model.taxi_rides_ny.dim_zones: BEGIN
+[0m05:06:14.234177 [debug] [Thread-4  ]: Opening a new connection, currently in state init
+[0m05:06:14.241971 [debug] [Thread-1  ]: Database Error in model stg_green_tripdata (models\staging\stg_green_tripdata.sql)
+  cross-database references are not implemented: "de-zoomcamp-413508.dezoomcamp.green_tripdata"
+  LINE 13:   from "de-zoomcamp-413508"."dezoomcamp"."green_tripdata"
+                  ^
+  compiled Code at target\run\taxi_rides_ny\models\staging\stg_green_tripdata.sql
+[0m05:06:14.243035 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'da763c30-91ea-43b4-903f-71d6eca516b0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002E9F0B8C070>]}
+[0m05:06:14.243560 [debug] [Thread-2  ]: Database Error in model stg_yellow_tripdata (models\staging\stg_yellow_tripdata.sql)
+  cross-database references are not implemented: "de-zoomcamp-413508.dezoomcamp.external_yellow_tripdata"
+  LINE 13:   from "de-zoomcamp-413508"."dezoomcamp"."external_yellow_tr...
+                  ^
+  compiled Code at target\run\taxi_rides_ny\models\staging\stg_yellow_tripdata.sql
+[0m05:06:14.245176 [debug] [Thread-2  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'da763c30-91ea-43b4-903f-71d6eca516b0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002E9F12709D0>]}
+[0m05:06:14.244612 [error] [Thread-1  ]: 1 of 16 ERROR creating sql view model dbt_foladavies.stg_green_tripdata ........ [[31mERROR[0m in 0.53s]
+[0m05:06:14.248916 [debug] [Thread-1  ]: Finished running node model.taxi_rides_ny.stg_green_tripdata
+[0m05:06:14.246310 [error] [Thread-2  ]: 2 of 16 ERROR creating sql view model dbt_foladavies.stg_yellow_tripdata ....... [[31mERROR[0m in 0.52s]
+[0m05:06:14.251550 [debug] [Thread-2  ]: Finished running node model.taxi_rides_ny.stg_yellow_tripdata
+[0m05:06:14.252655 [debug] [Thread-3  ]: Began running node test.taxi_rides_ny.accepted_values_stg_green_tripdata_Payment_type__False___var_payment_type_values_.f62fdf1854
+[0m05:06:14.253184 [debug] [Thread-2  ]: Began running node test.taxi_rides_ny.not_null_stg_green_tripdata_tripid.3e149d002b
+[0m05:06:14.254223 [debug] [Thread-1  ]: Began running node test.taxi_rides_ny.relationships_stg_green_tripdata_Pickup_locationid__locationid__ref_taxi_zone_lookup_.d10960da22
+[0m05:06:14.255286 [debug] [Thread-4  ]: SQL status: BEGIN in 0.0 seconds
+[0m05:06:14.255932 [info ] [Thread-3  ]: 5 of 16 SKIP test accepted_values_stg_green_tripdata_Payment_type__False___var_payment_type_values_  [[33mSKIP[0m]
+[0m05:06:14.256461 [info ] [Thread-2  ]: 6 of 16 SKIP test not_null_stg_green_tripdata_tripid ........................... [[33mSKIP[0m]
+[0m05:06:14.258099 [debug] [Thread-4  ]: Using postgres connection "model.taxi_rides_ny.dim_zones"
+[0m05:06:14.258673 [debug] [Thread-3  ]: Finished running node test.taxi_rides_ny.accepted_values_stg_green_tripdata_Payment_type__False___var_payment_type_values_.f62fdf1854
+[0m05:06:14.259822 [debug] [Thread-2  ]: Finished running node test.taxi_rides_ny.not_null_stg_green_tripdata_tripid.3e149d002b
+[0m05:06:14.260364 [debug] [Thread-4  ]: On model.taxi_rides_ny.dim_zones: /* {"app": "dbt", "dbt_version": "1.7.8", "profile_name": "pg-dbt-workshop", "target_name": "dev", "node_id": "model.taxi_rides_ny.dim_zones"} */
+
+  
+    
+
+  create  table "production"."dbt_foladavies"."dim_zones__dbt_tmp"
+  
+  
+    as
+  
+  (
+    
+
+select 
+    locationid, 
+    borough, 
+    zone, 
+    replace(service_zone,'Boro','Green') as service_zone
+from "production"."dbt_foladavies"."taxi_zone_lookup"
+  );
+  
+[0m05:06:14.257514 [info ] [Thread-1  ]: 7 of 16 SKIP test relationships_stg_green_tripdata_Pickup_locationid__locationid__ref_taxi_zone_lookup_  [[33mSKIP[0m]
+[0m05:06:14.261505 [debug] [Thread-3  ]: Began running node test.taxi_rides_ny.relationships_stg_green_tripdata_dropoff_locationid__locationid__ref_taxi_zone_lookup_.e44ce4891e
+[0m05:06:14.262036 [debug] [Thread-2  ]: Began running node test.taxi_rides_ny.unique_stg_green_tripdata_tripid.d46e7e4182
+[0m05:06:14.263097 [debug] [Thread-1  ]: Finished running node test.taxi_rides_ny.relationships_stg_green_tripdata_Pickup_locationid__locationid__ref_taxi_zone_lookup_.d10960da22
+[0m05:06:14.266352 [debug] [Thread-4  ]: Postgres adapter: Postgres error: column "locationid" does not exist
+LINE 15:     locationid, 
+             ^
+HINT:  Perhaps you meant to reference the column "taxi_zone_lookup.LocationID".
+
+[0m05:06:14.264733 [info ] [Thread-3  ]: 8 of 16 SKIP test relationships_stg_green_tripdata_dropoff_locationid__locationid__ref_taxi_zone_lookup_  [[33mSKIP[0m]
+[0m05:06:14.267951 [debug] [Thread-1  ]: Began running node test.taxi_rides_ny.accepted_values_stg_yellow_tripdata_Payment_type__False___var_payment_type_values_.cf82239ca2
+[0m05:06:14.265817 [info ] [Thread-2  ]: 9 of 16 SKIP test unique_stg_green_tripdata_tripid ............................. [[33mSKIP[0m]
+[0m05:06:14.269020 [debug] [Thread-4  ]: On model.taxi_rides_ny.dim_zones: ROLLBACK
+[0m05:06:14.270871 [debug] [Thread-3  ]: Finished running node test.taxi_rides_ny.relationships_stg_green_tripdata_dropoff_locationid__locationid__ref_taxi_zone_lookup_.e44ce4891e
+[0m05:06:14.273609 [debug] [Thread-2  ]: Finished running node test.taxi_rides_ny.unique_stg_green_tripdata_tripid.d46e7e4182
+[0m05:06:14.272507 [info ] [Thread-1  ]: 10 of 16 SKIP test accepted_values_stg_yellow_tripdata_Payment_type__False___var_payment_type_values_  [[33mSKIP[0m]
+[0m05:06:14.274661 [debug] [Thread-3  ]: Began running node test.taxi_rides_ny.not_null_stg_yellow_tripdata_tripid.099802d91c
+[0m05:06:14.275733 [debug] [Thread-2  ]: Began running node test.taxi_rides_ny.relationships_stg_yellow_tripdata_Pickup_locationid__locationid__ref_taxi_zone_lookup_.e3a1ac3c4f
+[0m05:06:14.276271 [debug] [Thread-4  ]: Timing info for model.taxi_rides_ny.dim_zones (execute): 05:06:14.192239 => 05:06:14.276271
+[0m05:06:14.277383 [debug] [Thread-1  ]: Finished running node test.taxi_rides_ny.accepted_values_stg_yellow_tripdata_Payment_type__False___var_payment_type_values_.cf82239ca2
+[0m05:06:14.277917 [info ] [Thread-3  ]: 11 of 16 SKIP test not_null_stg_yellow_tripdata_tripid ......................... [[33mSKIP[0m]
+[0m05:06:14.280170 [debug] [Thread-4  ]: On model.taxi_rides_ny.dim_zones: Close
+[0m05:06:14.278479 [info ] [Thread-2  ]: 12 of 16 SKIP test relationships_stg_yellow_tripdata_Pickup_locationid__locationid__ref_taxi_zone_lookup_  [[33mSKIP[0m]
+[0m05:06:14.281800 [debug] [Thread-1  ]: Began running node test.taxi_rides_ny.relationships_stg_yellow_tripdata_dropoff_locationid__locationid__ref_taxi_zone_lookup_.c687434631
+[0m05:06:14.282335 [debug] [Thread-3  ]: Finished running node test.taxi_rides_ny.not_null_stg_yellow_tripdata_tripid.099802d91c
+[0m05:06:14.306023 [debug] [Thread-3  ]: Began running node test.taxi_rides_ny.unique_stg_yellow_tripdata_tripid.7a6ae70c82
+[0m05:06:14.287022 [debug] [Thread-4  ]: Database Error in model dim_zones (models\core\dim_zones.sql)
+  column "locationid" does not exist
+  LINE 15:     locationid, 
+               ^
+  HINT:  Perhaps you meant to reference the column "taxi_zone_lookup.LocationID".
+  compiled Code at target\run\taxi_rides_ny\models\core\dim_zones.sql
+[0m05:06:14.309021 [debug] [Thread-4  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'da763c30-91ea-43b4-903f-71d6eca516b0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002E9F123B130>]}
+[0m05:06:14.283432 [debug] [Thread-2  ]: Finished running node test.taxi_rides_ny.relationships_stg_yellow_tripdata_Pickup_locationid__locationid__ref_taxi_zone_lookup_.e3a1ac3c4f
+[0m05:06:14.305022 [info ] [Thread-1  ]: 13 of 16 SKIP test relationships_stg_yellow_tripdata_dropoff_locationid__locationid__ref_taxi_zone_lookup_  [[33mSKIP[0m]
+[0m05:06:14.308022 [info ] [Thread-3  ]: 14 of 16 SKIP test unique_stg_yellow_tripdata_tripid ........................... [[33mSKIP[0m]
+[0m05:06:14.316443 [debug] [Thread-1  ]: Finished running node test.taxi_rides_ny.relationships_stg_yellow_tripdata_dropoff_locationid__locationid__ref_taxi_zone_lookup_.c687434631
+[0m05:06:14.318369 [debug] [Thread-3  ]: Finished running node test.taxi_rides_ny.unique_stg_yellow_tripdata_tripid.7a6ae70c82
+[0m05:06:14.311021 [error] [Thread-4  ]: 4 of 16 ERROR creating sql table model dbt_foladavies.dim_zones ................ [[31mERROR[0m in 0.13s]
+[0m05:06:14.320567 [debug] [Thread-4  ]: Finished running node model.taxi_rides_ny.dim_zones
+[0m05:06:14.322685 [debug] [Thread-2  ]: Began running node model.taxi_rides_ny.fact_trips
+[0m05:06:14.324201 [info ] [Thread-2  ]: 15 of 16 SKIP relation dbt_foladavies.fact_trips ............................... [[33mSKIP[0m]
+[0m05:06:14.326202 [debug] [Thread-2  ]: Finished running node model.taxi_rides_ny.fact_trips
+[0m05:06:14.327939 [debug] [Thread-3  ]: Began running node model.taxi_rides_ny.dm_monthly_zone_revenue
+[0m05:06:14.329949 [info ] [Thread-3  ]: 16 of 16 SKIP relation dbt_foladavies.dm_monthly_zone_revenue .................. [[33mSKIP[0m]
+[0m05:06:14.331675 [debug] [Thread-3  ]: Finished running node model.taxi_rides_ny.dm_monthly_zone_revenue
+[0m05:06:14.334684 [debug] [MainThread]: Using postgres connection "master"
+[0m05:06:14.334684 [debug] [MainThread]: On master: BEGIN
+[0m05:06:14.335684 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m05:06:14.354164 [debug] [MainThread]: SQL status: BEGIN in 0.0 seconds
+[0m05:06:14.354696 [debug] [MainThread]: On master: COMMIT
+[0m05:06:14.355227 [debug] [MainThread]: Using postgres connection "master"
+[0m05:06:14.355758 [debug] [MainThread]: On master: COMMIT
+[0m05:06:14.357354 [debug] [MainThread]: SQL status: COMMIT in 0.0 seconds
+[0m05:06:14.358415 [debug] [MainThread]: On master: Close
+[0m05:06:14.359473 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m05:06:14.360543 [debug] [MainThread]: Connection 'list_production' was properly closed.
+[0m05:06:14.361074 [debug] [MainThread]: Connection 'list_production_dbt_foladavies' was properly closed.
+[0m05:06:14.361603 [debug] [MainThread]: Connection 'model.taxi_rides_ny.stg_green_tripdata' was properly closed.
+[0m05:06:14.362132 [debug] [MainThread]: Connection 'model.taxi_rides_ny.stg_yellow_tripdata' was properly closed.
+[0m05:06:14.362668 [debug] [MainThread]: Connection 'seed.taxi_rides_ny.taxi_zone_lookup' was properly closed.
+[0m05:06:14.363198 [debug] [MainThread]: Connection 'model.taxi_rides_ny.dim_zones' was properly closed.
+[0m05:06:14.364258 [info ] [MainThread]: 
+[0m05:06:14.365330 [info ] [MainThread]: Finished running 1 seed, 2 view models, 10 tests, 3 table models in 0 hours 0 minutes and 0.79 seconds (0.79s).
+[0m05:06:14.367440 [debug] [MainThread]: Command end result
+[0m05:06:14.381951 [info ] [MainThread]: 
+[0m05:06:14.382951 [info ] [MainThread]: [31mCompleted with 3 errors and 0 warnings:[0m
+[0m05:06:14.383952 [info ] [MainThread]: 
+[0m05:06:14.384954 [error] [MainThread]:   Database Error in model stg_green_tripdata (models\staging\stg_green_tripdata.sql)
+  cross-database references are not implemented: "de-zoomcamp-413508.dezoomcamp.green_tripdata"
+  LINE 13:   from "de-zoomcamp-413508"."dezoomcamp"."green_tripdata"
+                  ^
+  compiled Code at target\run\taxi_rides_ny\models\staging\stg_green_tripdata.sql
+[0m05:06:14.385952 [info ] [MainThread]: 
+[0m05:06:14.386950 [error] [MainThread]:   Database Error in model stg_yellow_tripdata (models\staging\stg_yellow_tripdata.sql)
+  cross-database references are not implemented: "de-zoomcamp-413508.dezoomcamp.external_yellow_tripdata"
+  LINE 13:   from "de-zoomcamp-413508"."dezoomcamp"."external_yellow_tr...
+                  ^
+  compiled Code at target\run\taxi_rides_ny\models\staging\stg_yellow_tripdata.sql
+[0m05:06:14.387951 [info ] [MainThread]: 
+[0m05:06:14.387951 [error] [MainThread]:   Database Error in model dim_zones (models\core\dim_zones.sql)
+  column "locationid" does not exist
+  LINE 15:     locationid, 
+               ^
+  HINT:  Perhaps you meant to reference the column "taxi_zone_lookup.LocationID".
+  compiled Code at target\run\taxi_rides_ny\models\core\dim_zones.sql
+[0m05:06:14.389952 [info ] [MainThread]: 
+[0m05:06:14.390951 [info ] [MainThread]: Done. PASS=1 WARN=0 ERROR=3 SKIP=12 TOTAL=16
+[0m05:06:14.391950 [debug] [MainThread]: Command `dbt build` failed at 05:06:14.391950 after 3.19 seconds
+[0m05:06:14.392950 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002E9ED9F2220>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002E9F0C06C10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002E9F1380C70>]}
+[0m05:06:14.392950 [debug] [MainThread]: Flushing usage events
